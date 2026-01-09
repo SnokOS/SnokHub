@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=SnokHub
+Comment=Docker Manager Editor
+GenericName=Docker Editor
+Exec=python3 /opt/SnokHub/docker_manager.py %F
+Icon=SnokHub
+Type=Application
+StartupNotify=false
+StartupWMClass=SnokHub
+Categories=TextEditor;Development;IDE;
+MimeType=application/x-SnokHub-workspace;
+Actions=new-empty-window;
+Keywords=SnokHub;
+
+[Desktop Action new-empty-window]
+Name=Docker Manager Editor
+Name[es]=Docker Manager Editor
+Name[fr]=Docker Manager Editor
+Exec=python3 /opt/SnokHub/docker_manager.py --new-window %F
+Icon=SnokHub
